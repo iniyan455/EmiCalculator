@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edtmail"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/black"
+        android:textSize="12sp"
+        app:met_autoValidate="true"
+
+        app:met_bottomTextSize="8dp"
+        app:met_clearButton="true"
+        app:met_floatingLabel="normal"
+        app:met_floatingLabelAlwaysShown="true"
+        app:met_floatingLabelAnimating="true"
+        app:met_floatingLabelPadding="8dp"
+        app:met_floatingLabelText="Email"
+        app:met_floatingLabelTextColor="@android:color/black"
+        app:met_floatingLabelTextSize="14dp"
+        app:met_helperText="Email"
+        app:met_helperTextAlwaysShown="false"
+        app:met_helperTextColor="@android:color/background_dark"
+
+        app:met_primaryColor="@android:color/holo_blue_dark"
+        app:met_singleLineEllipsis="true"
+        app:met_underlineColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnmail"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:layout_margin="6dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Send Mail"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+</LinearLayout>
